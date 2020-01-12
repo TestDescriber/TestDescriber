@@ -1,0 +1,147 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>ch.uzh.TestDescriber</groupId>
+		<artifactId>TestDescriber2</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>TestDescriber-summarizer</artifactId>
+
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
+	<!-- Adding GitHub Repository -->
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+		<repository>
+			<id>eclipse</id>
+			<name>Eclipse Repository</name>
+			<url>https://repo.eclipse.org/content/groups/eclipse/</url>
+		</repository>
+	</repositories>
+
+	<!-- Adding Dependencies -->
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.lucene</groupId>
+			<artifactId>lucene-core</artifactId>
+			<version>3.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>java-hamcrest</artifactId>
+			<version>2.0.0.0</version>
+		</dependency>
+
+		<!-- LanguageTool -->
+		<dependency>
+			<groupId>org.languagetool</groupId>
+			<artifactId>language-en</artifactId>
+			<version>3.3</version>
+		</dependency>
+
+		<!-- Project from GitHub -->
+		<dependency>
+			<groupId>com.github.javaparser</groupId>
+			<artifactId>javaparser-core</artifactId>
+			<version>2.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.jbytecode</groupId>
+			<artifactId>RCaller</artifactId>
+			<version>2.5</version>
+		</dependency>
+
+		<!-- Eclipse dependencies -->
+		<dependency>
+			<groupId>org.eclipse.birt.runtime</groupId>
+			<artifactId>org.eclipse.core.resources</artifactId>
+			<version>3.9.1.v20140825-1431</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.core</groupId>
+			<artifactId>runtime</artifactId>
+			<version>3.10.0-v20140318-2214</version>
+		</dependency>
+
+		<!-- Weka dependencies -->
+		<dependency>
+			<groupId>nz.ac.waikato.cms.weka</groupId>
+			<artifactId>weka-dev</artifactId>
+			<version>3.7.5</version>
+		</dependency>
+        <dependency>
+            <groupId>ch.uzh.TestDescriber</groupId>
+            <artifactId>TestDescriber-JaCoCo</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+		<dependency>
+			<groupId>com.google.gwt</groupId>
+			<artifactId>gwt-dev</artifactId>
+			<version>2.8.0</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+		</dependency>
+
+	<!-- Java SE dependencies GGG start -->
+	<dependency>
+		<groupId>javax.xml.bind</groupId>
+		<artifactId>jaxb-api</artifactId>
+		<version>2.2.11</version>
+	</dependency>
+	<dependency>
+		<groupId>com.sun.xml.bind</groupId>
+		<artifactId>jaxb-core</artifactId>
+		<version>2.2.11</version>
+	</dependency>
+	<dependency>
+		<groupId>com.sun.xml.bind</groupId>
+		<artifactId>jaxb-impl</artifactId>
+		<version>2.2.11</version>
+	</dependency>
+	<dependency>
+		<groupId>javax.activation</groupId>
+		<artifactId>activation</artifactId>
+		<version>1.1.1</version>
+	</dependency>
+	<!-- Java SE dependencies GGG end -->
+
+	<!-- Log4j because some projects use it GGG   -->
+      <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-api</artifactId>
+        <version>2.12.1</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-core</artifactId>
+        <version>2.12.1</version>
+      </dependency>
+	<!-- Log4j end GGG -->
+
+	</dependencies>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>commons-lang</groupId>
+				<artifactId>commons-lang</artifactId>
+				<version>2.6</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+</project>

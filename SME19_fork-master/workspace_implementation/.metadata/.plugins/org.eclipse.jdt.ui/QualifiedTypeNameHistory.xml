@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="ch.uzh.parser.testing.summarization.MainRunnableJar"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="ch.uzh.utility.TestCoverageComputation"/>
+</qualifiedTypeNameHistroy>

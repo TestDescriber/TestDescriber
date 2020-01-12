@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<input>
+	<path>
+		<src>/Users/Dani/Downloads/workspace2-modified-implementation/Task1/src/</src>
+		<bin>/Users/Dani/Downloads/workspace2-modified-implementation/Task1/bin/</bin>
+		<class>org/magee/math/Rational.java</class>
+		<testClass>org/magee/math/TestRational.java</testClass>
+	</path>
+	<verbose>false</verbose>
+</input>

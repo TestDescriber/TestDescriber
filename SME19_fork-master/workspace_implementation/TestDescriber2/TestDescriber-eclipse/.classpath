@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/Jacob/.p2/pool/plugins/org.eclipse.ui.workbench_3.116.0.v20190826-1428.jar" sourcepath="C:/Users/Jacob/.p2/pool/plugins/org.eclipse.ui.workbench_3.116.0.v20190826-1428.jar">
+		<accessrules>
+			<accessrule kind="discouraged" pattern="org/eclipse/e4/ui/workbench/addons/perspectiveswitcher/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/about/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/actions/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/activities/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/application/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/branding/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/browser/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/commands/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/contexts/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/databinding/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/dialogs/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/dnd/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/fieldassist/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/handlers/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/help/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/about/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/actions/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/activities/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/activities/ws/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/application/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/browser/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/commands/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/contexts/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/decorators/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/dialogs/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/dialogs/cpd/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/e4/compatibility/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/e4/migration/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/editorsupport/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/expressions/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/handlers/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/help/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/intro/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/keys/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/keys/model/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/layout/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/menus/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/misc/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/model/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/operations/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/part/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/preferences/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/progress/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/provisional/application/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/quickaccess/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/quickaccess/providers/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/registry/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/services/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/splash/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/statushandlers/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/testing/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/themes/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/tweaklets/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/util/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/wizards/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/ui/internal/wizards/preferences/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/intro/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/keys/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/menus/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/model/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/operations/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/part/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/plugin/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/preferences/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/progress/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/quickaccess/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/services/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/splash/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/statushandlers/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/swt/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/themes/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/views/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/ui/wizards/*"/>
+			<accessrule ignoreifbetter="true" kind="nonaccessible" pattern="**/*"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Jacob/.m2/repository/org/eclipse/birt/runtime/org.eclipse.core.resources/3.9.1.v20140825-1431/org.eclipse.core.resources-3.9.1.v20140825-1431.jar" sourcepath="C:/Users/Jacob/.m2/repository/org/eclipse/birt/runtime/org.eclipse.core.resources/3.9.1.v20140825-1431/org.eclipse.core.resources-3.9.1.v20140825-1431-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.eclipse.birt.runtime"/>
+			<attribute name="maven.artifactId" value="org.eclipse.core.resources"/>
+			<attribute name="maven.version" value="3.9.1.v20140825-1431"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Jacob/.p2/pool/plugins/org.eclipse.core.filesystem_1.7.500.v20190620-1312.jar" sourcepath="C:/Users/Jacob/.p2/pool/plugins/org.eclipse.core.filesystem_1.7.500.v20190620-1312.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jacob/.p2/pool/plugins/org.eclipse.core.filesystem.win32.x86_64_1.4.200.v20190812-0909.jar" sourcepath="C:/Users/Jacob/.p2/pool/plugins/org.eclipse.core.filesystem.win32.x86_64_1.4.200.v20190812-0909.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

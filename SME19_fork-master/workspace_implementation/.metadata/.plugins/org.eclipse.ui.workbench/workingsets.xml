@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1505508640360_1" label="TestDescriber2" name="TestDescriber2">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/TestDescriber2" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/TestDescriber-JaCoCo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/TestDescriber-summarizer" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1575284576114_3" label="Java Main Sources" name="Java Main Sources">
+<item elementID="=Task1/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1575284576120_4" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1505508603721_0" label="Window Working Set" name="Aggregate for window 1505508603720"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1505834162860_2" label="Window Working Set" name="Aggregate for window 1505834162860"/>
+</workingSetManager>
