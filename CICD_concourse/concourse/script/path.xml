@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<input>
+	<path>
+		<src>../../test/Task1/src/</src>
+		<bin>../../test/Task1/bin/</bin>
+		<class>org/magee/math/Rational.java</class>
+		<testClass>org/magee/math/TestRational.java</testClass>
+	</path>
+	<verbose>TRUE</verbose>
+</input>
+

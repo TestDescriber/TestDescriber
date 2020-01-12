@@ -1,0 +1,13 @@
+resources:
+- name: repo
+  type: git
+  source:
+    uri: https://github.com/litemars/CICD_concourse.git
+
+jobs:
+- name: java
+  plan:
+  - get: repo
+    trigger: true
+  - task: java
+    file: repo/concourse/task/task.yml
